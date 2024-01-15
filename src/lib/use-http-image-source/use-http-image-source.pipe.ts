@@ -1,7 +1,7 @@
 import { HttpClient, HttpResponse } from '@angular/common/http';
 import { ChangeDetectorRef, Inject, OnDestroy, Pipe, PipeTransform } from '@angular/core';
 import { DomSanitizer, SafeUrl } from '@angular/platform-browser';
-import { isTruthy } from '@this-dot/utils';
+import { isTruthy } from './isTruthy';
 import { BehaviorSubject, of, Subscription } from 'rxjs';
 import {
   catchError,
